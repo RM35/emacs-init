@@ -14,3 +14,5 @@
 (set-face-attribute 'default nil :height 140)
 
 (split-window-horizontally)
+
+(menu-bar-mode -1)
