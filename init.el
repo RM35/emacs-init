@@ -9,3 +9,8 @@
 (setq frame-title-format
       (list (format "%s %%S: %%j " (system-name))
         '(buffer-file-name "%f" (dired-directory dired-directory "%b"))))
+
+(set-face-attribute 'default t :font "Ubuntu Mono")
+(set-face-attribute 'default nil :height 140)
+
+(split-window-horizontally)
