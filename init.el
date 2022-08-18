@@ -23,3 +23,6 @@
 (setq inhibit-splash-screen t)
 (setq inhibit-startup-message t)
 (setq initial-scratch-message "")
+
+(cd "Q:")
+;;Change where appropriate. add a subst batch file to startup.
